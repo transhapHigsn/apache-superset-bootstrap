@@ -12,3 +12,9 @@ Refer this link: <https://superset.apache.org/installation.html#superset-install
 
 You will have to use docker run command before every command in above mentioned setup.
 `docker run -it --rm --network host -v $(pwd):/app -e SUPERSET_CONFIG_PATH=/app/superset_config.py -e FLASK_APP=superset superset-0.1 <command>`
+
+## running celery + flower
+
+Requirements are already installed, follow these commands.
+
+Follow this to get celery up: <https://superset.apache.org/installation.html#celery-tasks>

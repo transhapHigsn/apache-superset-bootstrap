@@ -1,2 +1,4 @@
 apache-superset
 psycopg2-binary
+redis
+flower
